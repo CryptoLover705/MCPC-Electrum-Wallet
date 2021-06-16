@@ -1,0 +1,16 @@
+# If you want electrum to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum.desktop
+
+[Desktop Entry]
+Comment=Lightweight MobilePayCoin Client
+Exec=electrum %u
+GenericName[en_US]=MobilePayCoin Wallet
+GenericName=MobilePayCoin Wallet
+Icon=electrum
+Name[en_US]=Electrum MobilePayCoin Wallet
+Name=Electrum MobilePayCoin Wallet
+Categories=Finance;Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/bitcoin;
